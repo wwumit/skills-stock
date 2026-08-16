@@ -16,6 +16,19 @@ description: |
   - 自定义CSV(自动识别中英文列名)
   
   运行模式：纯本地
+disclosure:
+  cloud: false
+  network: []
+  offline_mode: true
+  api_keys: []
+  jurisdiction: []
+  retention: "none"
+permissions:
+  network: []
+  filesystem:
+    write: []
+  env: []
+
 ---
 
 # 🔎 Stock Screener

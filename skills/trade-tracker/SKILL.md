@@ -20,6 +20,19 @@ description: |
   触发关键词：交易复盘、归因分析、交易统计、投资收益、持仓分析
   适用范围：CSV 交易记录(含盈亏、日期列)
   运行模式：纯本地
+disclosure:
+  cloud: false
+  network: []
+  offline_mode: true
+  api_keys: []
+  jurisdiction: []
+  retention: "none"
+permissions:
+  network: []
+  filesystem:
+    write: []
+  env: []
+
 ---
 
 # 💰 Trade Tracker

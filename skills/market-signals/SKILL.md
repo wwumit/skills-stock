@@ -22,6 +22,19 @@ description: |
   触发关键词：技术分析、信号扫描、RSI、均线、MACD、布林带
   适用范围：CSV 价格数据(date, close, volume, high, low)
   运行模式：纯本地
+disclosure:
+  cloud: false
+  network: []
+  offline_mode: true
+  api_keys: []
+  jurisdiction: []
+  retention: "none"
+permissions:
+  network: []
+  filesystem:
+    write: []
+  env: []
+
 ---
 
 # 📈 Market Signals

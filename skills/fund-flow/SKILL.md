@@ -20,6 +20,19 @@ description: |
   触发关键词：资金流向、主力资金、板块排行、股票分析、资金趋势
   适用范围：CSV 资金流向数据(日频)
   运行模式：纯本地
+disclosure:
+  cloud: false
+  network: []
+  offline_mode: true
+  api_keys: []
+  jurisdiction: []
+  retention: "none"
+permissions:
+  network: []
+  filesystem:
+    write: []
+  env: []
+
 ---
 
 # 💹 Fund Flow

@@ -18,6 +18,19 @@ description: |
   触发关键词：回测分析、策略评估、量化交易、交易统计
   适用范围：CSV 交易记录
   运行模式：纯本地
+disclosure:
+  cloud: false
+  network: []
+  offline_mode: true
+  api_keys: []
+  jurisdiction: []
+  retention: "none"
+permissions:
+  network: []
+  filesystem:
+    write: []
+  env: []
+
 ---
 
 # 📊 Backtest Analyzer

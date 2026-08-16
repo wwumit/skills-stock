@@ -5,6 +5,19 @@ description: |
   四维度市场情绪评估（情绪/趋势/量能/宽度极端度），对大盘环境诊断并输出 0–100 评分与对应市场状态。
   Use when: 用户请求市场情绪分析、大盘诊断、超买超卖判断、涨跌比/涨停跌停比分析。
   触发词：market sentiment, 市场情绪, 大盘分析, 超买, 超卖, 情绪评分, trend
+disclosure:
+  cloud: false
+  network: []
+  offline_mode: true
+  api_keys: []
+  jurisdiction: []
+  retention: "none"
+permissions:
+  network: []
+  filesystem:
+    write: []
+  env: []
+
 ---
 
 # 📊 Market Sentiment — 市场情绪分析器

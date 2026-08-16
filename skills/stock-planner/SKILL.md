@@ -18,6 +18,19 @@ description: |
   触发关键词：交易计划、仓位管理、止损止盈、投资管理
   适用范围：CSV 持仓数据
   运行模式：纯本地
+disclosure:
+  cloud: false
+  network: []
+  offline_mode: true
+  api_keys: []
+  jurisdiction: []
+  retention: "none"
+permissions:
+  network: []
+  filesystem:
+    write: []
+  env: []
+
 ---
 
 # 📋 Stock Planner
