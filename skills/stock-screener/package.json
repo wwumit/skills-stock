@@ -1,0 +1,41 @@
+{
+  "name": "stock-screener",
+  "version": "1.0.2",
+  "description": "🔎 多因子选股器。连接 fund-flow / market-signals → stock-planner 的桥梁。按RSI、均线信号、量比、主力资金、PE、PB等多条件筛选，综合评分排序。",
+  "author": "compliancehub",
+  "license": "MIT",
+  "keywords": [
+    "stock",
+    "screener",
+    "选股",
+    "多因子",
+    "multi-factor",
+    "stock-selection",
+    "trading",
+    "筛选",
+    "评分排序"
+  ],
+  "files": [
+    "SKILL.md",
+    "package.json",
+    "requirements.txt",
+    "CHANGELOG.md",
+    "README.md",
+    "scripts/screener.py"
+  ],
+  "python": {
+    "version": ">=3.8",
+    "dependencies": []
+  },
+  "categories": [
+    "Finance",
+    "Analysis"
+  ],
+  "topics": [
+    "股票分析",
+    "选股",
+    "多因子模型",
+    "Stock-Screening",
+    "量化筛选"
+  ]
+}

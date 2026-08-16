@@ -1,0 +1,27 @@
+{
+  "name": "market-sentiment",
+  "displayName": "Market Sentiment — 市场情绪分析器",
+  "version": "1.1.0",
+  "description": "📊 市场情绪分析器 — 基于四维度模型的大盘环境诊断工具，输出0-100综合评分及市场状态，支持与stock-planner集成",
+  "icon": "📊",
+  "categories": [
+    "Finance",
+    "Research",
+    "Analysis"
+  ],
+  "topics": [
+    "market-sentiment",
+    "市场情绪",
+    "大盘诊断",
+    "stock-market",
+    "情绪分析"
+  ],
+  "author": "compliancehub",
+  "license": "MIT",
+  "scripts": {
+    "analyze": "python3 scripts/sentiment.py analyze",
+    "score": "python3 scripts/sentiment.py score",
+    "trend": "python3 scripts/sentiment.py trend",
+    "summary": "python3 scripts/sentiment.py summary"
+  }
+}
