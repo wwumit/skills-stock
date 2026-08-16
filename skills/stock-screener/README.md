@@ -20,7 +20,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                  1. 大盘诊断                              │
+│                  1. 大盘状态评估                              │
 │  market-sentiment analyze --file market.csv              │
 │  └─ 输出市场状态(strong/oscillate/weak/bear)             │
 ├──────────────────────────────────────────────────────────┤
@@ -107,7 +107,7 @@ python3 scripts/screener.py correlation --file stocks.csv
 ## 完整工作流示例
 
 ```bash
-# Step 0: 大盘情绪诊断 → 确定市场状态
+# Step 0: 大盘情绪状态评估 → 确定市场状态
 python3 ../market-sentiment/scripts/sentiment.py analyze --file market.csv
 # 输出示例: "市场状态: weak (42分)" → 对应 stock-planner --market weak
 

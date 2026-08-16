@@ -2,8 +2,8 @@
 name: market-sentiment
 model: default
 description: |
-  四维度市场情绪评估（情绪/趋势/量能/宽度极端度），对大盘环境诊断并输出 0–100 评分与对应市场状态。
-  Use when: 用户请求市场情绪分析、大盘诊断、超买超卖判断、涨跌比/涨停跌停比分析。
+  四维度市场情绪评估（情绪/趋势/量能/宽度极端度），对大盘环境状态评估并输出 0–100 评分与对应市场状态。
+  Use when: 用户请求市场情绪分析、大盘状态评估、超买超卖判断、涨跌比/涨停跌停比分析。
   触发词：market sentiment, 市场情绪, 大盘分析, 超买, 超卖, 情绪评分, trend
 disclosure:
   cloud: false
@@ -32,7 +32,7 @@ permissions:
 - **analyze** — 综合情绪分析（含评分、状态、操作建议）
 - **score** — 评分明细（四维度 + ASCII 条形图）
 - **trend** — 多日趋势追踪
-- **summary** — 一句话市场诊断
+- **summary** — 一句话市场状态概括
 
 ## 四维度模型
 
@@ -75,7 +75,7 @@ python3 scripts/stock_planner.py --plan \
 
 ## 触发关键词
 
-市场情绪、大盘环境、sentiment、market context、情绪分析、大盘诊断、market state、overbought、oversold、市场状态
+市场情绪、大盘环境、sentiment、market context、情绪分析、大盘状态评估、market state、overbought、oversold、市场状态
 
 ## 法律免责声明
 
