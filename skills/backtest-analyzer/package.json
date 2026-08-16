@@ -1,7 +1,7 @@
 {
   "name": "backtest-analyzer",
   "version": "1.0.0",
-  "description": "回测分析工具。从交易记录CSV计算回测核心指标：胜率、盈亏比、最大回撤、夏普比率、获利因子、最佳/最差交易。支持JSON报告导出。",
+  "description": "回测分析工具。从交易记录CSV计算回测核心指标：胜率、盈亏比、最大回撤、夏普比率、获利因子、单笔最高/最低盈亏交易。支持JSON报告导出。",
   "author": "ChengQian (成乾)",
   "license": "MIT",
   "keywords": [
