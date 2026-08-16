@@ -1,4 +1,5 @@
 > ⚠️ **免责声明**：本工具为辅助性参考工具，**不构成投资建议，不构成法律建议**。市场有风险，投资需谨慎；据此操作，风险自担。正式合规意见请咨询具备资质的律师。最终决策与责任由使用者自行承担。
+> **仅供学习研究参考**，不构成投资或法律依据。
 
 # 📊 Market Sentiment — 市场情绪分析器
 
@@ -55,7 +56,7 @@ python3 scripts/sentiment.py summary --file market_data.csv
   },
   "market_state": "weak",
   "planner_param": "weak",
-  "suggested_position": "减仓至5只，止损收紧至6%",
+  "suggested_position": "示例：减仓至5只，止损收紧至6%（仅供参考）",
   "suggested_threshold": 7.0
 }
 ```
@@ -80,7 +81,7 @@ python3 scripts/sentiment.py summary --file market_data.csv
   市场状态:     偏弱 (weak)
   stock-planner: --market weak
   信号:         市场情绪偏弱，建议控制仓位，注意风险
-  建议仓位:     减仓至4-5只，止损收紧至6%
+  示例仓位建议: 减仓至4-5只，止损收紧至6%（仅供参考）
   建议阈值:     7.0%
   ── 四维度评分 ──
   ① 情绪极端度: 12.0/30 — 涨停占比35%, 涨跌比38%, 情绪偏弱
@@ -108,7 +109,7 @@ python3 scripts/sentiment.py summary --file market_data.csv
   市场状态:     超买 (overbought)
   stock-planner: --market bear
   信号:         市场情绪过热，短期回调风险加大，建议谨慎追高
-  建议仓位:     减仓至4只以内，不开新仓，逢高减磅
+  示例仓位建议: 减仓至4只以内，不开新仓，逢高减磅（仅供参考）
   建议阈值:     6.5%
   ── 四维度评分 ──
   ① 情绪极端度: 26.0/30 — 涨停占比82%, 涨跌比75%, 情绪高企
