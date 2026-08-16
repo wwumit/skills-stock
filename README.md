@@ -1,3 +1,8 @@
+<!-- wwumit brand header: governance-driven AI skills ecosystem -->
+<p align="center"><b>wwumit</b> · 治理驱动的 AI 技能生态 — 规则 → 检查 → 评分 → 报告</p>
+<p align="center">产品线：<a href="https://github.com/wwumit/skills-compliance-intl">合规（compliancehub）</a> · <a href="https://github.com/wwumit/skills-stock">股票</a> · <a href="https://github.com/wwumit/skills-tools">工具</a> · 插件 <a href="https://github.com/wwumit/dsh-compliancehub">dsh-compliancehub</a> · 数据层 <a href="https://github.com/wwumit/skills-catalog">catalog</a></p>
+<hr>
+
 # Skills Stock
 
 ## Skills
